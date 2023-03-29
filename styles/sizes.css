@@ -1,0 +1,39 @@
+.width-max {
+    width: max-content;
+}
+
+.heigth-100vw {
+    width: 100vw;
+}
+
+.width-min-100vw {
+    min-width: 100vw;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.max-width-100 {
+    max-width: 100%;
+}
+
+.height-max {
+    height: max-content;
+}
+
+.heigth-100vh {
+    height: 100vh;
+}
+
+.gap-14 {
+    gap: 0.875rem;
+}
+
+.gap-22 {
+    gap: 1.375rem;
+}

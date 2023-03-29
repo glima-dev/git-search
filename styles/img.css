@@ -1,0 +1,43 @@
+.recent-profile {
+    width: 44px;
+    border-radius: 100%;
+}
+
+.user-profile {
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+/* SUGESTÃO DE ESTILIZAÇÃO DE IMAGEM FORNECIDO PELA ESCOLA (NÃO UTILIZADO - MANTENDO HISTÓRICO APENAS) */
+/* 
+img {
+    color: #900;
+    text-decoration: none;
+  }
+  
+  img:hover {
+    color: red;
+    position: relative;
+  }
+  
+  img:hover:after {
+    content: "attr(data)";
+    padding: 4px 8px;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    white-space: nowrap;
+    z-index: 2;
+    border-radius: 5px ;
+    background: rgba(0,0,0,0.5);
+  } */

@@ -1,0 +1,10 @@
+.input-search {
+    height: 2.375rem;
+    border-radius: var(--radius-1);
+    border: solid 1px var(--color-grey-7-12);
+    padding-left: 0.5rem;
+}
+
+.input-search.error {
+    border: solid 1px var(--color-alert);
+}

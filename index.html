@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/display.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/img.css" />
+    <link rel="stylesheet" href="./styles/texts.css" />
+    <link rel="stylesheet" href="./styles/sizes.css" />
+    <link rel="stylesheet" href="./styles/colors.css" />
+    <link rel="stylesheet" href="./styles/inputs.css" />
+    <link rel="stylesheet" href="./styles/animation.css" />
+    <link rel="stylesheet" href="./pages/home/home.css" />
+    <title>Git Search</title>
+  </head>
+  <body class="background-grey-2">
+    <main
+      class="main-container flex width-100 width-min-100vw background-grey-2"
+    >
+      <section
+        class="recently-visited flex items-center justify-center flex-col heigth-100vh width-50 background-brand-1"
+      >
+        <div class="git-search-div flex flex-col">
+          <h1 class="title-1 color-grey-7">Git Search</h1>
+          <h2 class="title-2 color-grey-7 line-height-1">
+            Encontre e se conecte com profissionais de forma rápida e fácil
+          </h2>
+          <div class="recent-searchs-div flex items-center width-100">
+            <p class="text-1 color-grey-7">Achados Recentemente:</p>
+            <ul class="recent-searchs flex justify-center"></ul>
+          </div>
+        </div>
+      </section>
+      <section
+        class="search-profile flex items-center justify-center flex-col heigth-100vh width-50 background-grey-2"
+      >
+        <div class="search-profile-div">
+          <h2 class="title-3 color-grey-7 line-height-1">
+            Procurar por um usuário
+          </h2>
+          <form class="form-search-user flex flex-col" action="">
+            <p class="text-2 color-grey-7">Usuário github</p>
+            <input
+              class="input-search width-100 text-3 color-grey-7-50 background-grey-1"
+              type="text"
+              placeholder="Digite um usuário do github aqui..."
+            />
+            <span class="text-3 color-alert hidden"
+              >Usuário não encontrado</span
+            >
+            <button id="bt-search-user" class="bt-search width-100 text-2">
+              Ver perfil do github
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/requests.js"></script>
+    <script src="./scripts/localStorage.js"></script>
+    <script src="./scripts/switchPage.js"></script>
+    <script src="./scripts/render.js"></script>
+    <script src="./pages/home/home.js"></script>
+  </body>
+</html>

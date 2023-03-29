@@ -1,0 +1,59 @@
+.title-1 {
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+    line-height: 3rem;
+}
+
+.title-2 {
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-3);
+}
+
+.title-3 {
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-2);
+}
+
+.title-4 {
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-0);
+}
+
+.text-1 {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+}
+
+.text-2 {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+}
+
+.text-3 {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-3);
+}
+
+.text-4 {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-1);
+}
+
+.line-height-1 {
+    line-height: 1.875rem;
+}
+
+.overflow-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.overflow-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

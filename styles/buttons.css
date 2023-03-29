@@ -1,0 +1,69 @@
+.bt-search {
+    height: 2.375rem;
+    border-radius: var(--radius-1);
+    background-color: var(--color-brand-2-40);
+    color: var(--color-grey-7-35);
+    margin-top: 0.25rem;
+    border: 1px transparent;
+}
+
+.bt-search.active {
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    cursor: pointer;
+}
+
+.header-bt {
+    height: 2.375rem;
+    padding: 0.625rem 1.563rem;
+    border-radius: var(--radius-2);
+    border: none;
+    cursor: pointer;
+}
+
+.header-bt.email {
+    display: block;
+    text-decoration: none;
+}
+
+.header-bt.email:hover {
+    background-color: var(--color-brand-1);
+}
+
+.header-bt.change-user:hover {
+    background-color: var(--color-grey-1);
+}
+
+.user-bt-div>a {
+    height: 2rem;
+    display: block;
+    padding: 0.344rem 0.625rem;
+    border-radius: var(--radius-1);
+    border: solid 1px var(--color-grey-7);
+    text-align: center;
+    text-decoration: none;
+}
+
+.user-bt-div>a:hover {
+    background-color: var(--color-brand-2);
+    border: solid 1px var(--color-brand-2);
+}
+
+li:hover > .bt-recent-profile {
+    display: block;
+    width: max-content;
+    height: 1.75rem;
+    background-color: var(--color-grey-7);
+    border-radius: var(--radius-1);
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-2);
+    line-height: 1.125rem;
+    color: var(--color-grey-2);
+    text-align: center;
+    padding: 0.313rem 0.625rem;
+    position: absolute;
+    top: 90%;
+    left: -90%;
+    z-index: 2;
+    cursor: pointer;  
+  }

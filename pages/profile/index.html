@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/styles/display.css" />
+    <link rel="stylesheet" href="/styles/buttons.css" />
+    <link rel="stylesheet" href="/styles/img.css" />
+    <link rel="stylesheet" href="/styles/texts.css" />
+    <link rel="stylesheet" href="/styles/sizes.css" />
+    <link rel="stylesheet" href="/styles/colors.css" />
+    <link rel="stylesheet" href="/styles/inputs.css" />
+    <link rel="stylesheet" href="/styles/animation.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Nome do usuário Github</title>
+  </head>
+  <body class="background-grey-2">
+    <header class="user-container height-max">
+      <div class="header-flex flex items-center justify-between">
+        <div class="flex items-center gap-22">
+          <img
+            class="user-profile"
+            src=""
+            alt="Foto de perfil do usuário"
+          />
+          <div class="user-info flex flex-col gap-14">
+            <h1 id="user-name" class="title-4 color-grey-7"></h1>
+            <p id="user-bio" class="text-1 color-grey-7-50"></p>
+          </div>
+        </div>
+        <nav class="flex items-center gap-14">
+          <a
+            id="user-mail"
+            class="header-bt width-max text-4 color-grey-7 email background-brand-2"
+            href="mailto:null"
+            target="_blank"
+            >Email</a>
+          <button
+            class="header-bt width-max text-4 color-grey-7 change-user background-grey-3">
+            Trocar de usuário
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="user-container">
+      <ul class="user-repository-list flex wrap width-100 height-max gap-22">
+      </ul>
+    </main>
+    <script src="../../scripts/requests.js"></script>
+    <script src="../../scripts/localStorage.js"></script>
+    <script src="../../scripts/switchPage.js"></script>
+    <script src="../../scripts/render.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
